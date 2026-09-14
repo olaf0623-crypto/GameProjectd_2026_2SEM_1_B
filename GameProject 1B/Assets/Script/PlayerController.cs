@@ -85,7 +85,8 @@ public class PlayerController : MonoBehaviour
 
         controller.Move(Vector3.up * verticalVelocity * Time.deltaTime);
 
-        float animationSpeed = 0.1f;
+        float animationSpeed = 0f;
+        if (moveDirection.sqrMagnitude > 0.001f)
         {
             animationSpeed = isRunning ? 1f : 0.5f;
         }

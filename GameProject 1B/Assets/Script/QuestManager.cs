@@ -12,7 +12,7 @@ public class QuestManager : MonoBehaviour
 
     }
 
-    public void talkToNPC(Quest npcQuest)
+    public void TalkToNPC(Quest npcQuest)
     {
         if (npcQuest.state == QuestState.Completed)
         {

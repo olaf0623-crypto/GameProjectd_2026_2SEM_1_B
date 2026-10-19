@@ -1800,7 +1800,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c454e66457cfe24b83a3506858453e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::QuestNPC
-  questManager: {fileID: 0}
+  questManager: {fileID: 965928877}
   quest:
     questName: "\uAD11\uC11D \uC218\uC9D1"
     targetItemName: "\uAD11\uC11D"
@@ -2297,7 +2297,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c454e66457cfe24b83a3506858453e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::QuestNPC
-  questManager: {fileID: 0}
+  questManager: {fileID: 965928877}
   quest:
     questName: "\uC544\uC774\uD15C \uC218\uC9D1"
     targetItemName: "\uC0AC\uACFC"

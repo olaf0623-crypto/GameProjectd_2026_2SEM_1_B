@@ -7,6 +7,7 @@ public enum QuestState
     Inprgress,
     ReadyToComplete,
     Completed,
+    InPrgress,
 }
 [System.Serializable]
 public class Quest
